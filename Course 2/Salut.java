@@ -9,7 +9,7 @@ class Salut {
 		int numTwo = Integer.parseInt(inputValueTwo);
 		int guessResult = Integer.parseInt(inputValueThree);
 		int rightResult = numOne + numTwo;
-		String showMessage = "Nu este corect";
+		String showMessageWrong = "Nu este corect, mai incearca odata!";
 
 		if(guessResult == rightResult){
 
@@ -17,11 +17,10 @@ class Salut {
 
 		} else {
 
-			JOptionPane.showMessageDialog(null, showMessage);
+			JOptionPane.showMessageDialog(null, showMessageWrong);
 
 
   			}
 
-	System.out.println("Hiiii");
 	}
 }
