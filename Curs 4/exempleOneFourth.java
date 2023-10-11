@@ -1,5 +1,5 @@
 
-public class exempleOne {
+public class exempleOneFourth {
     public static void main(String[] args) {
         //Delararea variabililor booleane
         boolean a, b;
