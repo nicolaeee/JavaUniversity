@@ -1,4 +1,4 @@
-package Course 2;
+
 
  import java.util.Scanner;
 public class homeWork2 {
@@ -20,4 +20,4 @@ public class homeWork2 {
         }
     }
 
-}
+

@@ -1,4 +1,4 @@
-public class Mavenproject1 {
+public class homework1 {
 
     public static void main(String[] args) {
         // %d specific format for integer
