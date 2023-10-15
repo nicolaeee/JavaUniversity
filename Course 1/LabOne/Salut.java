@@ -1,3 +1,4 @@
+package LabOne;
 import javax.swing.JOptionPane;
 
 class Salut {
