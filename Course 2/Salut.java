@@ -2,7 +2,8 @@ import javax.swing.JOptionPane;
 
 class Salut {
 	public static void main(String args[]){
-		String inputValueOne = JOptionPane.showInputDialog("Introdu un numar dorit: ");
+		String inputName = JOptionPane.showInputDialog("Cum te numesti?");
+		String inputValueOne = JOptionPane.showInputDialog(inputName + " introdu un numar dorit: ");
 		String inputValueTwo = JOptionPane.showInputDialog("Introdu al doilea numar dorit: ");
 		String inputValueThree = JOptionPane.showInputDialog("Care ar fi suma acestor doua numere?: ");
 		int numOne = Integer.parseInt(inputValueOne);
@@ -10,7 +11,7 @@ class Salut {
 		int guessResult = Integer.parseInt(inputValueThree);
 		int rightResult = numOne + numTwo;
 		String showMessageWrong = "Nu este corect, mai incearca odata!";
-		String showMessageRightOne = "Bravo, ai reusit, raspunsul tau: ";
+		String showMessageRightOne = "Bravo " + inputName + " ai reusit, raspunsul tau: ";
 		String showMessageRightTwo = " este absolut corect ";
 
 
@@ -18,7 +19,8 @@ class Salut {
 
 
 		 JOptionPane.showMessageDialog(null, showMessageWrong);
-         inputValueOne = JOptionPane.showInputDialog("Introdu un numar dorit: ");
+		 inputName = JOptionPane.showInputDialog("Cum te numesti?");
+                 inputValueOne = JOptionPane.showInputDialog(inputName + " introdu un numar dorit: ");
 		 inputValueTwo = JOptionPane.showInputDialog("Introdu al doilea numar dorit: ");
 		 inputValueThree = JOptionPane.showInputDialog("Care ar fi suma acestor doua numere?: ");
 		 numOne = Integer.parseInt(inputValueOne);
