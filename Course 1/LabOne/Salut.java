@@ -1,4 +1,3 @@
-package LabOne;
 import javax.swing.JOptionPane;
 
 class Salut {
@@ -20,7 +19,6 @@ class Salut {
 
 
 		 JOptionPane.showMessageDialog(null, showMessageWrong);
-		 inputName = JOptionPane.showInputDialog("Cum te numesti?");
                  inputValueOne = JOptionPane.showInputDialog(inputName + " introdu un numar dorit: ");
 		 inputValueTwo = JOptionPane.showInputDialog("Introdu al doilea numar dorit: ");
 		 inputValueThree = JOptionPane.showInputDialog("Care ar fi suma acestor doua numere?: ");
