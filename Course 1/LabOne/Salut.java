@@ -10,7 +10,7 @@ class Salut {
 		int numTwo = Integer.parseInt(inputValueTwo);
 		int guessResult = Integer.parseInt(inputValueThree);
 		int rightResult = numOne + numTwo;
-		String showMessageWrong = "Nu este corect, mai incearca odata!";
+		String showMessageWrong = inputName + " nu este corect, mai incearca odata!";
 		String showMessageRightOne = "Bravo " + inputName + " ai reusit, raspunsul tau: ";
 		String showMessageRightTwo = " este absolut corect ";
 
@@ -19,7 +19,7 @@ class Salut {
 
 
 		 JOptionPane.showMessageDialog(null, showMessageWrong);
-                 inputValueOne = JOptionPane.showInputDialog(inputName + " introdu un numar dorit: ");
+         inputValueOne = JOptionPane.showInputDialog(inputName + " introdu un numar dorit: ");
 		 inputValueTwo = JOptionPane.showInputDialog("Introdu al doilea numar dorit: ");
 		 inputValueThree = JOptionPane.showInputDialog("Care ar fi suma acestor doua numere?: ");
 		 numOne = Integer.parseInt(inputValueOne);
